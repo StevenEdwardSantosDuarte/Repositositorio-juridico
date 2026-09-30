@@ -1,61 +1,40 @@
-# Resumos Visuais Jurídicos
+# Repositório Jurídico — Steven Edward Santos Duarte
 
 > **Direito • Tecnologia • Pesquisa Jurídica**
 
-Repositório-portfólio para transformar peças acadêmicas, teses jurídicas e temas processuais complexos em **resumos visuais**, com foco em fluxogramas, mapas de decisão e esquemas de leitura rápida.
+Este repositório reúne o portfólio e o cartão de visita digital de **Steven Edward Santos Duarte**, com uma página web estática em HTML/CSS e espaço para futuros resumos visuais jurídicos.
 
-## Base do projeto
+## Cartão de visita digital
 
-A identidade e o recorte temático deste repositório foram definidos a partir do currículo de Steven Edward Santos Duarte:
+**Site:** https://stevenedwardsantosduarte.github.io/Repositositorio-juridico/
 
-- Graduando em Direito (1º semestre);
-- Formação concluída em Análise e Desenvolvimento de Sistemas;
-- Experiência em pesquisa técnica e acadêmica, redação técnica, relatórios e documentação;
-- Áreas de interesse: Direito Digital, LegalTech, Proteção de Dados, Inteligência Artificial e Pesquisa Jurídica.
+**LinkedIn:** https://br.linkedin.com/in/steven-edward-santos-duarte-b983ab302
 
-**Importante:** o currículo não contém teses jurídicas específicas nem regras de contagem de prazos processuais. Por isso, esta versão inicial fornece **modelos visuais e um exemplo estrutural**, sem inventar conteúdo jurídico atribuído ao currículo.
+**GitHub / Portfólio:** https://github.com/StevenEdwardSantosDuarte/Repositositorio-juridico
 
-## Estrutura
+## Perfil
 
-```text
-.
-├── README.md
-├── resumos/
-│   ├── 01-fluxo-de-pesquisa-juridica.md
-│   └── 02-exemplo-de-tese-juridica-template.md
-├── modelos/
-│   ├── template-tese-juridica.md
-│   └── template-prazo-processual.md
-└── assets/
-    └── guia-visual.md
-```
+Graduando em Direito (1º semestre), com formação concluída em Análise e Desenvolvimento de Sistemas. O projeto combina pesquisa jurídica, tecnologia, redação técnica e documentação estruturada.
 
-## Como usar
+### Formação
 
-Os diagramas usam [Mermaid](https://mermaid.js.org/), compatível com visualização em Markdown no GitHub.
+- Bacharelado em Direito — Centro Universitário Cearense (UNIC), 2026–2031.
+- Análise e Desenvolvimento de Sistemas — formação concluída, 2023–2025.
 
-Para cada novo estudo:
+### Áreas de interesse
 
-1. Defina a pergunta jurídica.
-2. Separe fatos, questão jurídica, normas/fontes e argumentos.
-3. Construa o fluxo de decisão.
-4. Registre premissas e exceções.
-5. Acrescente fontes primárias e bibliografia.
-6. Revise a precisão jurídica antes da publicação.
+- Direito Digital
+- LegalTech
+- Proteção de Dados
+- Inteligência Artificial
+- Pesquisa Jurídica
 
-## Próximas coleções sugeridas
+## Site
 
-- Direito Digital e proteção de dados;
-- Inteligência Artificial aplicada ao Direito;
-- LegalTech;
-- Teoria e estruturação de teses jurídicas;
-- Prazos processuais, quando houver fonte normativa/jurisprudencial específica;
-- Resumos de artigos e peças acadêmicas.
+O arquivo `index.html` é a página inicial e usa `style.css` para a identidade visual inspirada no currículo apresentado.
 
-## Critério editorial
+O QR Code é gerado no navegador e aponta para a URL atual da página.
 
-Cada resumo deve distinguir claramente:
+## GitHub Pages
 
-**Fonte → Regra/entendimento → Aplicação → Conclusão**
-
-Não substitui consulta à legislação vigente, jurisprudência, doutrina ou orientação profissional.
+O workflow em `.github/workflows/pages.yml` publica o conteúdo como site estático quando o GitHub Pages estiver configurado para usar **GitHub Actions** como fonte de publicação.
