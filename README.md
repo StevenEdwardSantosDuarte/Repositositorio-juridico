@@ -22,6 +22,10 @@ https://stevenedwardsantosduarte.github.io/Repositositorio-juridico/portfolio/
 
 O portfólio foi desenhado para uma leitura mais próxima de um site profissional/acadêmico. **Não é necessário ter conta no GitHub para utilizá-lo.**
 
+A área **Pesquisa & Produção** apresenta trabalhos acadêmicos, projetos e pesquisa aplicada por meio de metadados e resumos. Materiais ainda em desenvolvimento ou sem publicação formal não têm o texto integral exposto no site; a disponibilização pode ocorrer mediante contato direto para parceria ou avaliação restrita.
+
+Quando houver publicação em plataformas reconhecidas, os registros poderão receber os respectivos links públicos.
+
 ### 💻 Repositório técnico
 https://github.com/StevenEdwardSantosDuarte/Repositositorio-juridico
 
@@ -54,6 +58,8 @@ As áreas de interesse apresentadas no currículo incluem **Direito Digital, Leg
 │   ├── index.html             # site público do portfólio
 │   ├── style.css
 │   └── script.js
+├── portfolio/
+│   └── producao-academica.html # metadados e resumos da produção acadêmica
 ├── resumos/                   # resumos e fluxos jurídicos
 ├── modelos/                   # modelos reutilizáveis
 ├── assets/                    # referências visuais/documentais
