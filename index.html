@@ -3,114 +3,98 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Steven Edward Santos Duarte — Direito, Tecnologia e Pesquisa Jurídica. Cartão de visita digital e portfólio.">
+  <meta name="description" content="Steven Edward Santos Duarte — Direito, Tecnologia e Pesquisa Jurídica. Cartão de visita digital.">
   <meta name="theme-color" content="#111111">
   <title>Steven Edward Santos Duarte | Direito • Tecnologia • Pesquisa Jurídica</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <header class="hero">
-    <div class="hero-inner">
-      <div>
+  <div class="progress" aria-hidden="true"><span id="progress"></span></div>
+
+  <header class="hero" id="top">
+    <div class="hero-orb orb-one"></div><div class="hero-orb orb-two"></div>
+    <div class="hero-inner reveal">
+      <div class="hero-copy">
         <span class="eyebrow">DIREITO &nbsp;•&nbsp; TECNOLOGIA &nbsp;•&nbsp; PESQUISA JURÍDICA</span>
         <h1>STEVEN EDWARD<br><span>SANTOS DUARTE</span></h1>
-        <p class="lead">Graduando em Direito e formado em Análise e Desenvolvimento de Sistemas, com foco em pesquisa jurídica, tecnologia e documentação técnica.</p>
+        <p class="lead">Graduando em Direito e formado em Análise e Desenvolvimento de Sistemas, com atuação voltada a pesquisa jurídica, tecnologia, redação técnica e documentação.</p>
         <div class="actions">
-          <a class="btn btn-light" href="#curriculo">Ver currículo</a>
-          <a class="btn btn-outline" href="https://github.com/StevenEdwardSantosDuarte/Repositositorio-juridico" target="_blank" rel="noopener">Portfólio / GitHub</a>
+          <a class="btn btn-light magnetic" href="#curriculo">Conhecer o perfil</a>
+          <a class="btn btn-outline magnetic" href="portfolio/">Visitar portfólio</a>
         </div>
       </div>
-      <aside class="qr-card">
-        <div id="qrcode" aria-label="QR Code para este site"></div>
+      <aside class="qr-card float">
+        <div id="qrcode" aria-label="QR Code para este cartão digital"></div>
         <small>Aponte a câmera para<br>abrir este cartão digital.</small>
       </aside>
     </div>
+    <a class="scroll-cue" href="#curriculo" aria-label="Rolar para o conteúdo">↓</a>
   </header>
 
-  <nav class="nav">
-    <a href="#curriculo">Currículo</a>
-    <a href="#portfolio">Portfólio</a>
-    <a href="#competencias">Competências</a>
-    <a href="#contato">Contato</a>
+  <nav class="nav" aria-label="Navegação principal">
+    <a href="#curriculo">Perfil</a><a href="#competencias">Competências</a><a href="#portfolio">Portfólio</a><a href="#contato">Contato</a>
   </nav>
 
   <main>
-    <section id="curriculo" class="section profile-grid">
+    <section id="curriculo" class="section profile-grid reveal">
       <div>
         <p class="section-label">PERFIL PROFISSIONAL</p>
         <h2>Direito + Tecnologia + Pesquisa</h2>
-        <p>Graduando em Direito (1º semestre), com formação concluída em Análise e Desenvolvimento de Sistemas. A proposta deste espaço é unir base tecnológica, pesquisa técnica e redação estruturada para produzir conteúdos jurídicos claros, organizados e visualmente acessíveis.</p>
+        <p>Graduando em Direito, com formação concluída em Análise e Desenvolvimento de Sistemas. Combino base tecnológica, pesquisa técnica e redação estruturada para atuar em contextos jurídicos, digitais e acadêmicos.</p>
+        <div class="mini-line"><span></span><b>Pesquisa jurídica</b><span></span><b>Documentação</b><span></span><b>Tecnologia</b></div>
       </div>
       <div class="info-box">
-        <span>FORMAÇÃO</span>
+        <span>FORMAÇÃO ACADÊMICA</span>
         <strong>Bacharelado em Direito</strong>
-        <small>Centro Universitário Cearense — UNIC<br>2026–2031</small>
+        <small>Centro Universitário Cearense — UNIC<br>2026.2 · previsão de conclusão: 2031.1</small>
         <strong>ADS — concluído</strong>
-        <small>Formação em Análise e Desenvolvimento de Sistemas<br>2023–2025</small>
+        <small>Centro Universitário Cearense — UNIC<br>2025 / 2026</small>
       </div>
     </section>
 
-    <section id="competencias" class="section">
+    <section id="competencias" class="section reveal">
       <p class="section-label">COMPETÊNCIAS-CHAVE</p>
       <div class="cards">
-        <article><b>01</b><h3>Direito</h3><p>Pesquisa jurídica e organização de questões jurídicas.</p></article>
-        <article><b>02</b><h3>Tecnologia</h3><p>Base em ADS, sistemas e documentação técnica.</p></article>
-        <article><b>03</b><h3>Pesquisa</h3><p>Pesquisa acadêmica, levantamento e estruturação de informação.</p></article>
-        <article><b>04</b><h3>Redação</h3><p>Redação técnica, relatórios e documentos estruturados.</p></article>
+        <article class="tilt"><b>01</b><h3>Direito</h3><p>Pesquisa jurídica e organização de questões jurídicas.</p></article>
+        <article class="tilt"><b>02</b><h3>Tecnologia</h3><p>Base em ADS, sistemas e documentação técnica.</p></article>
+        <article class="tilt"><b>03</b><h3>Pesquisa</h3><p>Pesquisa acadêmica, levantamento e estruturação de informação.</p></article>
+        <article class="tilt"><b>04</b><h3>Redação</h3><p>Redação técnica, relatórios e documentos estruturados.</p></article>
       </div>
     </section>
 
-    <section id="portfolio" class="section portfolio">
+    <section id="portfolio" class="section portfolio reveal">
       <div>
         <p class="section-label">PORTFÓLIO</p>
-        <h2>Resumos Visuais Jurídicos</h2>
-        <p>Este repositório funciona como espaço principal para projetos que combinam Direito e tecnologia: fluxogramas, mapas de decisão, modelos de pesquisa e sínteses acadêmicas.</p>
+        <h2>Conteúdo jurídico pensado para ser entendido.</h2>
+        <p>Um espaço separado do código do projeto, pensado para apresentar pesquisas, resumos visuais e trabalhos jurídicos a estudantes, professores e profissionais — sem exigir familiaridade com GitHub.</p>
         <div class="actions">
-          <a class="btn btn-dark" href="https://github.com/StevenEdwardSantosDuarte/Repositositorio-juridico" target="_blank" rel="noopener">Abrir repositório</a>
-          <a class="text-link" href="https://github.com/StevenEdwardSantosDuarte?tab=repositories" target="_blank" rel="noopener">Ver outros repositórios →</a>
+          <a class="btn btn-dark magnetic" href="portfolio/">Abrir portfólio</a>
+          <a class="text-link" href="https://github.com/StevenEdwardSantosDuarte/Repositositorio-juridico" target="_blank" rel="noopener">Ver projeto técnico no GitHub →</a>
         </div>
       </div>
-      <div class="visual-flow">
-        <span>FONTE</span><i>→</i><span>REGRA</span><i>→</i><span>APLICAÇÃO</span><i>→</i><span>CONCLUSÃO</span>
+      <div class="visual-flow" aria-label="Fluxo de síntese jurídica">
+        <span>FONTE</span><i>→</i><span>QUESTÃO</span><i>→</i><span>FUNDAMENTOS</span><i>→</i><span>CONCLUSÃO</span>
       </div>
     </section>
 
-    <section class="section interests">
+    <section class="section interests reveal">
       <p class="section-label">ÁREAS DE INTERESSE</p>
-      <div class="tags">
-        <span>Direito Digital</span><span>LegalTech</span><span>Proteção de Dados</span><span>Inteligência Artificial</span><span>Pesquisa Jurídica</span>
-      </div>
+      <div class="tags"><span>Direito Digital</span><span>LegalTech</span><span>Proteção de Dados</span><span>Inteligência Artificial</span><span>Pesquisa Jurídica</span></div>
     </section>
 
-    <section id="contato" class="section contact">
-      <div>
-        <p class="section-label">CONTATO & PERFIS</p>
-        <h2>Vamos conectar?</h2>
-        <p>Use os canais abaixo para conhecer o percurso acadêmico, os projetos e o portfólio.</p>
-      </div>
+    <section id="contato" class="section contact reveal">
+      <div><p class="section-label">CONTATO & PERFIS</p><h2>Vamos conectar?</h2><p>Conheça o percurso acadêmico, o portfólio e os projetos.</p></div>
       <div class="links">
         <a href="https://br.linkedin.com/in/steven-edward-santos-duarte-b983ab302" target="_blank" rel="noopener"><span>LINKEDIN</span><b>Perfil profissional ↗</b></a>
-        <a href="https://github.com/StevenEdwardSantosDuarte/Repositositorio-juridico" target="_blank" rel="noopener"><span>PORTFÓLIO</span><b>Repositório jurídico ↗</b></a>
+        <a href="portfolio/"><span>PORTFÓLIO</span><b>Projetos e pesquisas ↗</b></a>
         <a href="mailto:steven.edward.santos@gmail.com"><span>E-MAIL</span><b>steven.edward.santos@gmail.com</b></a>
       </div>
     </section>
   </main>
 
-  <footer>
-    <strong>STEVEN EDWARD SANTOS DUARTE</strong>
-    <span>DIREITO • TECNOLOGIA • PESQUISA JURÍDICA</span>
-  </footer>
+  <footer><strong>STEVEN EDWARD SANTOS DUARTE</strong><span>DIREITO • TECNOLOGIA • PESQUISA JURÍDICA</span></footer>
 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script>
-  <script>
-    new QRCode(document.getElementById("qrcode"), {
-      text: window.location.href,
-      width: 156,
-      height: 156,
-      colorDark: "#111111",
-      colorLight: "#ffffff",
-      correctLevel: QRCode.CorrectLevel.H
-    });
-  </script>
+  <script src="script.js"></script>
 </body>
 </html>
